@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JavaScript</title>
+</head>
+<body>
+    <script>
+        let N = parseInt(prompt('Ingresar cualquier numero del 1 al 100 :'));
+        let i = 1, c = 0;
+        while(i <= N){
+            if(i % 7 == 0){
+                c = c + 1;
+            }
+            i = i + 1;
+        }
+        document.write(`La cantidad de números múltiplos de 7 son: ${c}`);
+    </script>
+</body>
+</html>
